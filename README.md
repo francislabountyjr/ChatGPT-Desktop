@@ -1,4 +1,5 @@
 # ChatGPT-Desktop
+![ChatGPT logo](https://github.com/francislabountyjr/ChatGPT-Desktop/blob/main/logo.png)
 ChatGPT desktop app made with PyQT5. Features include web search, prompt manager, wolfram alpha integration, pdf summarization and more!
 
 # Instructions
