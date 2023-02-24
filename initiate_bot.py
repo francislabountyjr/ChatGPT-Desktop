@@ -1074,7 +1074,7 @@ Summaries: SUMMARIES*"""
             target_words_per_page = 500
             for parameter in parameters:
                 parameter = parameter.strip()
-                if parameter.startswith('target_words'):
+                if parameter.startswith('target_words') and not parameter.startswith('target_words_'):
                     target_words = int(parameter.split('=')[1].strip())
                 elif parameter.startswith('target_words_per_page'):
                     target_words_per_page = int(parameter.split('=')[1].strip())
@@ -1318,7 +1318,7 @@ Summaries: SUMMARIES*"""
                 target_words_per_page = 500
                 for parameter in parameters:
                     parameter = parameter.strip()
-                    if parameter.startswith('target_words'):
+                    if parameter.startswith('target_words') and not parameter.startswith('target_words_'):
                         target_words = int(parameter.split('=')[1].strip())
                     elif parameter.startswith('target_words_per_page'):
                         target_words_per_page = int(parameter.split('=')[1].strip())
