@@ -1,0 +1,9 @@
+{
+    "chat_config": {
+        "access_token": null,
+        "paid": true
+    },
+    "text2audio_api_key": null,
+    "text2audio_voice": null,
+    "wolfram_app_id": null
+}
